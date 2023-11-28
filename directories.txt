@@ -1,0 +1,8 @@
+# Sergio Aguado Negrín
+# sergio.aguadonegrin68@myhunter.cuny.edu
+# this program creates direcories
+mkdir projectFiles
+cd projectFiles
+mkdir source
+mkdir data
+mkdir results
