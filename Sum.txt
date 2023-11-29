@@ -1,0 +1,11 @@
+# Sergio Aguado Negrín
+# sergio.aguadonegrin68@myhunter.cuny.edu
+# this program is the basic level computer language
+
+ADDI $s0, $zero, 0 
+ADDI $s1, $zero, 5 
+ADDI $s2, $zero, 50
+AGAIN: ADD $s0, $s0, $s1
+BEQ $s0, $s2, DONE
+J AGAIN
+DONE: 
